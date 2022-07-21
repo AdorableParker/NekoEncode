@@ -35,4 +35,5 @@ jobs:
         with:
           arguments: publish
         env:
+          GITHUB_ACTOR: ${{ secrets.OSSRH_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
