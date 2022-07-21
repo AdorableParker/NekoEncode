@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.adorableparker",
+    "module": "nekoencode",
+    "version": "0.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nekoencode-0.1.7.jar",
+          "url": "nekoencode-0.1.7.jar",
+          "size": 13280,
+          "sha512": "f7a980cb6166b37f83f5f35b523c314c325e0477b60cf99a09874d94c9c0b10f60ce8730bc861a793a30d333a6a659c17864150504f2302bee4b8feb26502f3a",
+          "sha256": "89030fa715ce42593062abeca2a0e3aa62d32bbf8a60449a12da981d612318a7",
+          "sha1": "e9a8e1f6aad77ef6d680e7a105d720e1cbbcbe29",
+          "md5": "136fe415746cf2bbfda3ca2cc9920e5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nekoencode-0.1.7.jar",
+          "url": "nekoencode-0.1.7.jar",
+          "size": 13280,
+          "sha512": "f7a980cb6166b37f83f5f35b523c314c325e0477b60cf99a09874d94c9c0b10f60ce8730bc861a793a30d333a6a659c17864150504f2302bee4b8feb26502f3a",
+          "sha256": "89030fa715ce42593062abeca2a0e3aa62d32bbf8a60449a12da981d612318a7",
+          "sha1": "e9a8e1f6aad77ef6d680e7a105d720e1cbbcbe29",
+          "md5": "136fe415746cf2bbfda3ca2cc9920e5d"
+        }
+      ]
+    }
+  ]
+}

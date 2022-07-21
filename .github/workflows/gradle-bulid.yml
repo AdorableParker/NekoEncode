@@ -1,0 +1,36 @@
+name: Kotlin CI with Gradle
+
+on:
+  [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: 安装JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        
+    - name: 标记gradlew为可执行
+      run: chmod +x ./gradlew
+
+    - name: 执行 Gradle 测试
+      uses: gradle/gradle-build-action@v2.2.2
+      with:
+        arguments: test
+
+    - name: 执行 Gradle 构建
+      uses: gradle/gradle-build-action@v2.2.2
+      with:
+        arguments: build
+    - uses: actions/upload-artifact@v3
+      with:
+        name: Package
+        path: build/libs
