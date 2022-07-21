@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="nekoEncode.HuffmanTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-07-21T11:04:28" hostname="LAPTOP-AQ265AJH" time="0.301">
-  <properties/>
-  <testcase name="shortInputTest()" classname="nekoEncode.HuffmanTest" time="0.115"/>
-  <testcase name="errorInputTest()" classname="nekoEncode.HuffmanTest" time="0.039"/>
-  <testcase name="longInputTest()" classname="nekoEncode.HuffmanTest" time="0.145"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
