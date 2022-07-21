@@ -1,7 +1,7 @@
 # 猫猫编码
 
 ## 一个练习赫夫曼编码的整活作品
-[![Kotlin CI with Gradle](https://github.com/AdorableParker/NekoEncode/actions/workflows/gradle-bulid.yml/badge.svg?branch=main)](https://github.com/AdorableParker/NekoEncode/actions/workflows/gradle-bulid.yml)
+[![Kotlin CI with Gradle](https://github.com/AdorableParker/NekoEncode/actions/workflows/Publish_package.yml/badge.svg)](https://github.com/AdorableParker/NekoEncode/actions/workflows/Publish_package.yml)
 
 可用于将任意原字符串编码为类似猫叫形式的字符串
 
